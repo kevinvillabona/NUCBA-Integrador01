@@ -1,0 +1,103 @@
+:root{
+    font-size: 14px;
+    --gold:#AF9A6D;
+    --red:#B21021;
+}
+.text-gold{
+    color:var(--gold);
+}
+.text-red{
+    color:var(--red)
+}
+.bg-danger{
+    background-color: var(--red) !important;
+}
+h1{
+font-size: 3rem;
+}
+.portada {
+    width: 100%;
+    padding: 0.5em;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.portada-p1{
+display: flex;
+justify-content: end;
+}
+.portada-p2 > h1, .portada-p2 > h3{
+    margin: 0;
+}
+.portada-p3{
+    display: grid;
+}
+.portada-logo{
+    width: 40%;
+    min-width: 5rem;
+}
+.portada-redes{
+    margin-bottom: 1em;
+}
+.portada-redes > a{
+    color:white;
+    margin:0.5rem;
+    font-size: calc(1.3rem + .6vw);
+}
+.portada-redes > a:hover {
+    color:var(--red);
+}
+.btn-outline-danger{
+    color: white !important;
+    border-color: var(--gold);
+    background-color: var(--gold);
+    font-weight: 500;
+}
+.btn-outline-danger:hover, .btn-outline-danger:active{
+    color: white !important;
+    border-color: var(--red) !important;
+    background-color: var(--red) !important;
+}
+.navbar-brand{
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: var(--red);
+}
+p > a{
+    text-decoration: none;
+    color: var(--gold);
+}
+.card-a{
+    color: black;
+}
+.card-a:hover, .nav-link.active.card-a:hover, .nav-link.active.card-a {
+    color:var(--red);
+}
+.foto{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+    text-align: center;
+}
+.dropdown-item:active, .dropdown-item.active{
+    background-color: #B21021;
+}
+
+#galeria .col-lg-4{
+    margin: 0px !important;
+    padding: 25px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+}
+#galeria img:hover{
+    border: 5px solid white;
+}

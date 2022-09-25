@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Integrador HTML/CSS - NUCBA</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="portada align-items-center bg-dark">
+      <div class="portada-p1">
+        <img src="assets/logo01.png" alt="logo" class="portada-logo" />
+      </div>
+      <div class="portada-p2 text-white">
+        <h3>CLUB DEPORTIVO</h3>
+        <h1>LEÓN</h1>
+        <h3 class="text-gold">2022</h3>
+      </div>
+      <div class="portada-p3">
+        <div class="portada-redes">
+          <a href="https://facebook.com" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://twitter.com" target="_blank"
+            ><i class="bi bi-twitter"></i
+          ></a>
+          <a href="https://instagram.com" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://youtube.com" target="_blank"
+            ><i class="bi bi-youtube"></i
+          ></a>
+        </div>
+        <div>
+          <a class="btn btn-outline-danger" href="registro.html">ASOCIATE</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="sticky-top">
+      <nav class="navbar navbar-dark bg-danger navbar-expand-lg">
+        <div class="container container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/logo01.png"
+              alt="Logo"
+              width="30"
+              height="30"
+              class="d-inline-block align-text-top"
+            />
+            Club Deportivo León
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Noticias</a
+              >
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >El Club</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="historia.html">Historia</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="enconstruccion.html"
+                      >Datos de interés</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="enconstruccion.html"
+                      >Instalaciones</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <a class="nav-link" href="enconstruccion.html">Infantil</a>
+              <a class="nav-link active" href="contacto.html">Contacto</a>
+            </div>
+            <a class="btn btn-sm btn-dark" href="portalsocios.html"
+              ><i class="bi bi-people-fill"></i> Portal Socios</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h2 class="text-center my-4">¿Necesitas información?</h2>
+      <h5 class="mb-2">Escuchamos sus preguntas, comentarios y sugerencias</h5>
+      <div class="row">
+        <div class="col- col-md-6 mt-4">
+          <div class="card">
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Email</label
+                >
+                <input type="email" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Asunto</label
+                >
+                <input type="text" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Ingrese su consulta</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Comentario"
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-outline-danger">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col- col-md-6 m-auto">
+          <div class="bg-dark text-white rounded-1 py-5">
+            <h4 class="text-center text-gold">Contacto</h4>
+            <address class="px-3">
+              <ul>
+                <li>
+                  Direccion:
+                  <h6>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </h6>
+                </li>
+                <li>
+                  Telefono:
+                  <h6>(221)4646774</h6>
+                </li>
+                <li>
+                  WhatsApp:
+                  <h6>(221)6003448</h6>
+                </li>
+                <li>
+                  Mail:
+                  <a href="mailto:kevinvillabona@gmail.com" class="text-white"
+                    ><h6>mailto:kevinvillabona@gmail.com</h6></a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <hr />
+
+    <footer class="text-center p-4">
+      © Kevin - 2022 | Proyecto integrador 01 NUCBA
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script></script>
+</html>
