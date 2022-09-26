@@ -1,6 +1,5 @@
 # NUCBA-Integrador01
-Proyecto Integrador 1 - NUCBA
-HTML - CSS
+Proyecto Integrador 1 - NUCBA (HTML/CSS/BOOTSTRAP)
 
 Topics: undefined.
 
